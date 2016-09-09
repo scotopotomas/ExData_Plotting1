@@ -20,7 +20,7 @@ plot3 <- function(){
   ## This part of the code opens a png device, creates the desired graphics and then
   ## closes the png device.
   
-  setwd("C:/Users/Scott Fry/Desktop/Coursera/Exploratory Data Analysis/Assignment 1")
+  setwd("C:/Users/Scott Fry/Desktop/Coursera/Exploratory Data Analysis/Assignment 1/Code")
   png(filename="plot3.png")
   with(power, plot(DateTime,Sub_metering_1, ylab="Energy sub metering ", xlab=NA, type="l"))
   with(power, points(DateTime,Sub_metering_2,col="red",type="l"))

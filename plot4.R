@@ -20,7 +20,7 @@ plot4 <- function(){
   ## This part of the code opens a png device, creates the desired graphics and then
   ## closes the png device.
   
-  setwd("C:/Users/Scott Fry/Desktop/Coursera/Exploratory Data Analysis/Assignment 1")
+  setwd("C:/Users/Scott Fry/Desktop/Coursera/Exploratory Data Analysis/Assignment 1/Code")
   png(filename="plot4.png")
   par(mfrow = c(2,2))
   
