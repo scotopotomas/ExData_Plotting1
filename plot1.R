@@ -20,7 +20,7 @@ power[,3:9] <- sapply(power[,3:9], as.numeric)
 ## This part of the code opens a png device, creates the desired graphics and then
 ## closes the png device.
 
-setwd("C:/Users/Scott Fry/Desktop/Coursera/Exploratory Data Analysis/Assignment 1/Code")
+setwd("C:/Users/Scott Fry/Desktop/Coursera/Exploratory Data Analysis/Assignment 1/ExData_Plotting1")
 png(filename="plot1.png")
 with(power, hist(Global_active_power,col="red", xlab="Global Active Power (kilowatts)", 
                  main= "Global Active Power"))
