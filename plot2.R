@@ -20,7 +20,7 @@ plot2 <- function(){
   ## This part of the code opens a png device, creates the desired graphics and then
   ## closes the png device.
   
-  setwd("C:/Users/Scott Fry/Desktop/Coursera/Exploratory Data Analysis/Assignment 1/Code")
+  setwd("C:/Users/Scott Fry/Desktop/Coursera/Exploratory Data Analysis/Assignment 1/ExData_Plotting1")
   png(filename="plot2.png")
   with(power, plot(DateTime,Global_active_power, ylab="Global Active Power (kilowatts)",
   xlab=NA, type="l"))
