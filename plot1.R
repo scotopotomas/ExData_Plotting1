@@ -1,5 +1,5 @@
 ## This function re-creates Plot 1 for Coursera's Exploratory Data Analysis Project 1
-## using the Electric power consumption dataset.
+## using the Electric power consumption dataset.  Git test.
 
 ## The first part of the function reads in and cleans the data while the second part
 ## of the function creates the graphics.
